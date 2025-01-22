@@ -11,7 +11,7 @@ apps:
           repo: can_to_ros
         - owner: jmscslgroup
           repo: cbf
-          branch_or_hash: original_CBF_implementation_2021
+          branch_or_hash: test_HO_with_radar
         - owner: jmscslgroup
           repo: velocity_controller
         - owner: jmscslgroup
@@ -30,7 +30,7 @@ apps:
           repo: can_to_ros
         - owner: jmscslgroup
           repo: cbf
-          branch_or_hash: original_CBF_implementation_2021
+          branch_or_hash: test_HO_with_radar
         - owner: jmscslgroup
           repo: velocity_controller
         - owner: jmscslgroup
@@ -49,7 +49,7 @@ apps:
           repo: can_to_ros
         - owner: jmscslgroup
           repo: cbf
-          branch_or_hash: original_CBF_implementation_2021
+          branch_or_hash: test_HO_with_radar
         - owner: jmscslgroup
           repo: velocity_controller
         - owner: jmscslgroup

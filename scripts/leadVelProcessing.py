@@ -358,6 +358,7 @@ class lead_estimator:
         self.rate = rospy.Rate(20)
 
     def loop(self):
+        print('Running lead_estimator.')
         while not rospy.is_shutdown():
             try:
                 global radar_rv_pub

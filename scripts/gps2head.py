@@ -100,6 +100,7 @@ class gps2head:
         self.rate = rospy.Rate(1)
 
     def loop(self):
+        print('Running gps2head.')
         while not rospy.is_shutdown():
             try:
                 global latitude

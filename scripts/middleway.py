@@ -256,6 +256,7 @@ class middleway:
         self.rate = rospy.Rate(20)
 
     def loop(self):
+        print('Running middleway.')
         while not rospy.is_shutdown():
             try:
                 global max_speed

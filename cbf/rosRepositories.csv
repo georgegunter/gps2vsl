@@ -1,0 +1,4 @@
+jmscslgroup,	   can_to_ros,		d7134708e49001b407aba4c382c9c6daec6ce0de
+jmscslgroup,       cbf,        test_HO_with_radar
+jmscslgroup,       velocity_controller,        3f8a36192d41b7d454e9f787ff61b99f287e3e0d
+Jmscslgroup,	   setpointreader, bf9116d7e7a8284527e1d94537de1228c2b3abb8

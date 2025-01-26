@@ -56,3 +56,22 @@ apps:
           repo: setpointreader
         - owner: georgegunter
           repo: gps2vsl
+  - name: cbf
+    properties:
+      - owns_panda: true
+    dependencies:
+      - apt: python3-pandas
+      - pip3: cantools
+      - pip3: shapely
+    ros_repositories:
+        - owner: jmscslgroup
+          repo: can_to_ros
+        - owner: jmscslgroup
+          repo: cbf
+          branch_or_hash: test_HO_with_radar
+        - owner: jmscslgroup
+          repo: velocity_controller
+        - owner: jmscslgroup
+          repo: setpointreader
+        - owner: georgegunter
+          repo: gps2vsl

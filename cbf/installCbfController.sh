@@ -2,10 +2,10 @@
 # Author: Matt Bunting
 
 #LAUNCH_FILE=cbftest.launch
-# LAUNCH_FILE=vehicle_control_integrated_cbf.launch
+LAUNCH_FILE=vehicle_control_integrated_cbf.launch
 #LAUNCH_FILE=vehicle_control_integrated_cbf_with_error.launch
 
-LAUNCH_FILE=cbf_testing.launch
+# LAUNCH_FILE=cbf_testing.launch
 
 echo "----------------------------"
 if [[ $EUID == 0 ]];
@@ -19,8 +19,8 @@ source ~/.bashrc
 pushd ~/catkin_ws
 source devel/setup.sh
 #rosrun robot_upstart uninstall can
-#rosrun robot_upstart install can_to_ros/launch/${LAUNCH_FILE} --user root
-rosrun robot_upstart install ${LAUNCH_FILE} --user root
+rosrun robot_upstart install can_to_ros/launch/${LAUNCH_FILE} --user root
+#rosrun robot_upstart install ${LAUNCH_FILE} --user root
 
 
 

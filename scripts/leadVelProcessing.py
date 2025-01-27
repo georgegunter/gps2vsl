@@ -8,7 +8,6 @@ import traceback
 import os
 import sys
 import time
-import requests
 import time
 import bisect
 import numpy as np

@@ -54,8 +54,11 @@
 		<remap from="/cmd_accel" to="/cmd_accel_null"/>
 	</node>
 
+	<node pkg="gps2vsl" type="leadVelProcessing.py" name="leadVelProcessing" output="screen" />
 
 	<node pkg="can_to_ros" type ="rosbag_record.sh" name="bashscript2" output="screen" args="$(arg description) $(arg hwil)" />
+
+
 
 	<!-- <node pkg="transfer_pkg" type="saveparam.py" name="saveparam" output="screen" args="$(arg description) $(arg hwil)"> -->
 	<!-- this is deprecated until updated -->

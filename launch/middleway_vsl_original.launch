@@ -2,14 +2,9 @@
 <launch>
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
   <!-- Controller Launches. Velocity Controller, and CBF -->
-  <node pkg="setpointreader" type="setpointreader" name="setpointreader" output="screen" required="true" >
-    <remap from="/v_ref" to="/cmd_vel"/>
-  </node>
-
-  <node pkg="velocity_controller" type="velocity_controller_node" name="velocity_controller_node" output="screen">
-    <remap from="/vehicle/vel" to="/vel"/>
-    <remap from="/cmd_accel" to="/cmd_accel_pre"/>
-  </node>
+  <node pkg="velocity_controller" type="velocity_controller" name="velocity_controller" output="screen">
+		<remap from="/cmd_accel" to="/cmd_accel_pre"/>
+	</node>
 
   <arg name="description" default="cbf_codegen_test"/>
 

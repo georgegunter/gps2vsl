@@ -7,7 +7,7 @@
 
 # LAUNCH_FILE=cbf_testing.launch
 
-LAUNCH_FILE=cbf_orignal_launch.launch
+LAUNCH_FILE=cbf_original_launch.launch
 
 echo "----------------------------"
 if [[ $EUID == 0 ]];
